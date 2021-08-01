@@ -34,7 +34,13 @@ function App() {
           <Home />
           <Vision />
           <Core />
-          <Youtube />         
+          <Youtube />
+        </Route>
+        <Route exact path="/sae-nitk">
+          <Home />
+          <Vision />
+          <Core />
+          <Youtube />
         </Route>
         <Route exact path="/about-us"><About /></Route>
         <Route exact path="/blog"><App2 /></Route>
@@ -74,4 +80,3 @@ function App() {
 }
 
 export default App;
-
